@@ -1,0 +1,30 @@
+Task:
+create a fully functional snake game that can be run correctly. the game should feature a snake that moves on a white background. the snake should be green in color and should grow longer as it consumes apples and bananas. the apples and bananas should be represented by corresponding pictures. the snake should be able to detect and consume these fruits, increasing its length with each consumption. the game should end if the snake collides with the boundaries of the game window or with its own body. the snake's movement should be controlled by arrow keys or wasd keys. the score should be displayed on the screen, indicating the number of fruits consumed by the snake. the game should provide a smooth and responsive user experience, ensuring that the snake moves smoothly and the fruits appear randomly on the screen.
+
+Config:
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+web application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+9.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+2
+

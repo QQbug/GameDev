@@ -3,19 +3,19 @@
     {
       "phase": "DemandAnalysis",
       "phaseType": "SimplePhase",
-      "max_turn_step": -1,
+      "max_turn_step": 1,
       "need_reflect": "True"
     },
     {
       "phase": "LanguageChoose",
       "phaseType": "SimplePhase",
-      "max_turn_step": -1,
+      "max_turn_step": 1,
       "need_reflect": "True"
     },
     {
       "phase": "Coding",
       "phaseType": "SimplePhase",
-      "max_turn_step": 1,
+      "max_turn_step": 5,
       "need_reflect": "False"
     },
     {
@@ -34,7 +34,7 @@
     {
       "phase": "CodeReview",
       "phaseType": "ComposedPhase",
-      "cycleNum": 3,
+      "cycleNum": 10,
       "Composition": [
         {
           "phase": "CodeReviewComment",
@@ -53,7 +53,7 @@
     {
       "phase": "Test",
       "phaseType": "ComposedPhase",
-      "cycleNum": 3,
+      "cycleNum": 5,
       "Composition": [
         {
           "phase": "TestErrorSummary",
@@ -97,5 +97,5 @@
   "brainstorming": "False",
   "gui_design": "True",
   "git_management": "False",
-  "self_improve": "False"
+  "self_improve": "True"
 }
