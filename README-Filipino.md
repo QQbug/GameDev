@@ -5,9 +5,8 @@
 </p>
 
 <p align="center">
-    【<a href="README.md">English</a> | <a href="README-Chinese.md">Chinese</a> | <a href="README-Japanese.md">Japanese</a> | <a href="README-Korean.md">Korean</a> | Filipino】
+    【<a href="README.md">English</a> | <a href="README-Chinese.md">Chinese</a> | <a href="README-Japanese.md">Japanese</a> | <a href="README-Korean.md">Korean</a> | Filipino | <a href="README-French.md">French</a> | <a href="README-Slovak.md">Slovak</a> | <a href="README-Portuguese.md">Portuguese</a> | <a href="README-Spanish.md">Spanish</a>】
 </p>
-
 <p align="center">
     【📚 <a href="wiki.md">Wiki</a> | 🚀 <a href="wiki.md#local-demo">Lokal na Demo</a> | 👥 <a href="Contribution.md">Komunidad ng Kontribusyon sa Software</a> | 🔧 <a href="wiki.md#customization">Kostomisasyon</a>】
 </p>
@@ -127,12 +126,18 @@ Para sa mas detalyadong impormasyon, mangyaring tingnan ang aming [Wiki](wiki.md
 
 ### Mga Kontribyutor ng Software
 
-<a href="https://github.com/qianc62"><img src="https://avatars.githubusercontent.com/u/48988402?v=4" alt="Nag-ambag" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/thinkwee"><img src="https://avatars.githubusercontent.com/u/11889052?v=4" alt="Nag-ambag" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/NA-Wen"><img src="https://avatars.githubusercontent.com/u/92134380?v=4" alt="Nag-ambag" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/lijiahao2022"><img src="https://avatars.githubusercontent.com/u/111221887?v=4" alt="Nag-ambag" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/GeekyWizKid"><img src="https://avatars.githubusercontent.com/u/133981481?v=4" alt="Nag-ambag" style="width:5%; border-radius: 50%;"/></a>
-<a href="https://github.com/Munsif-Raza-T"><img src="https://avatars.githubusercontent.com/u/76085202?v=4" alt="Nag-ambag" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/qianc62"><img src="https://avatars.githubusercontent.com/u/48988402?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/thinkwee"><img src="https://avatars.githubusercontent.com/u/11889052?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/NA-Wen"><img src="https://avatars.githubusercontent.com/u/92134380?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/JiahaoLi2003"><img src="https://avatars.githubusercontent.com/u/111221887?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/Alphamasterliu"><img src="https://avatars.githubusercontent.com/u/110011045?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/GeekyWizKid"><img src="https://avatars.githubusercontent.com/u/133981481?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/Munsif-Raza-T"><img src="https://avatars.githubusercontent.com/u/76085202?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/djbritt"><img src="https://avatars.githubusercontent.com/u/28036018?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/Classified3939"><img src="https://avatars.githubusercontent.com/u/102702965?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/chenilim"><img src="https://avatars.githubusercontent.com/u/46905241?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/delconis"><img src="https://avatars.githubusercontent.com/u/5824478?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
+<a href="https://github.com/eMcQuill"><img src="https://avatars.githubusercontent.com/u/139025701?v=4" alt="Contributor" style="width:5%; border-radius: 50%;"/></a>
 
 ## 📑 Citation
 ```

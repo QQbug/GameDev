@@ -16,8 +16,10 @@ from typing import Any, Dict
 
 import openai
 import tiktoken
+from retry import retry
 
 from camel.typing import ModelType
+from chatdev.statistics import prompt_cost
 from chatdev.utils import log_and_print_online
 
 
@@ -46,7 +48,8 @@ class OpenAIModel(ModelBackend):
         super().__init__()
         self.model_type = model_type
         self.model_config_dict = model_config_dict
-
+        
+    @retry(tries=-1, delay=0, max_delay=None, backoff=1, jitter=0)
     def run(self, *args, **kwargs) -> Dict[str, Any]:
         string = "\n".join([message["content"] for message in kwargs["messages"]])
         encoding = tiktoken.encoding_for_model(self.model_type.value)
@@ -69,11 +72,16 @@ class OpenAIModel(ModelBackend):
         response = openai.ChatCompletion.create(*args, **kwargs,
                                                 model=self.model_type.value,
                                                 **self.model_config_dict)
+        cost = prompt_cost(
+                self.model_type.value, 
+                num_prompt_tokens=response["usage"]["prompt_tokens"], 
+                num_completion_tokens=response["usage"]["completion_tokens"]
+        )
 
         log_and_print_online(
-            "**[OpenAI_Usage_Info Receive]**\nprompt_tokens: {}\ncompletion_tokens: {}\ntotal_tokens: {}\n".format(
+            "**[OpenAI_Usage_Info Receive]**\nprompt_tokens: {}\ncompletion_tokens: {}\ntotal_tokens: {}\ncost: ${:.6f}\n".format(
                 response["usage"]["prompt_tokens"], response["usage"]["completion_tokens"],
-                response["usage"]["total_tokens"]))
+                response["usage"]["total_tokens"], cost))
         if not isinstance(response, Dict):
             raise RuntimeError("Unexpected return from OpenAI API")
         return response
